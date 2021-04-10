@@ -11,5 +11,11 @@ if response.status_code == 200:
 
         if url.find("https://github.com") != -1:
             github_usernames.append(url.strip("/").split("/")[-1])
+            
+    for link in soup.select('code'):        
+        username = link.text
+        if username[0] == '@':
+            username = username[1:]
+        github_usernames.append(username)
 
 print(github_usernames)
