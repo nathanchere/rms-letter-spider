@@ -1,6 +1,6 @@
 # RMS Open Letter Spider
 
-This spider collects a list of the GitHub usernames of the RMS open letter of support signatories for use with the [rms-letter-sigs Chrome Extension](https://github.com/aaronbassett/rms-letter-sigs)
+This spider collects a list of the GitHub usernames of the RMS mob harrassment letter signatories for use with the [rms-letter-sigs Chrome Extension](https://github.com/nathanchere/rms-letter-sigs)
 
 ## Usage
 
