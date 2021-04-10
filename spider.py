@@ -1,7 +1,7 @@
 import httpx
 from bs4 import BeautifulSoup
 
-github_usernames = []
+github_usernames = ['aaronbassett']
 response = httpx.get('https://rms-open-letter.github.io/')
 
 if response.status_code == 200:
