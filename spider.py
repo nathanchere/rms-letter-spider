@@ -2,7 +2,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 github_usernames = []
-response = httpx.get('https://rms-support-letter.github.io/')
+response = httpx.get('https://rms-open-letter.github.io/')
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.text, 'html.parser')
